@@ -1,0 +1,20 @@
+{
+  "name": "polished-admin-template",
+  "version": "0.0.1",
+  "settings": {
+    "sass_source": "./scss/polished.scss",
+    "sass_watch_loc": "./scss/**/*.scss",
+    "css_dest": "./dist/",
+    "css_name": "polished.min.css"
+  },
+  "devDependencies": {
+    "gulp": ">=3.9.1",
+    "gulp-autoprefixer": ">=3.1.1",
+    "gulp-concat": ">=2.0",
+    "gulp-sass": ">=2.0",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
